@@ -1,6 +1,5 @@
 
 * {
-    /*font-family: "Consolas", serif;*/
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -175,19 +174,16 @@ header > p {
     width: 60px;
     border-bottom: 1px solid #FF6600;
     margin-right: 12.5px;
-    /*margin-bottom: 100px;*/
 }
 
 header > h1 {
     color: white;
     font-size: 80px;
-    /*margin-bottom: 10px;*/
 }
 
 header > h2 {
     color: whitesmoke;
     font-size: 20px;
-    /*margin-bottom: 85px;*/
 }
 
 header > button {
@@ -254,7 +250,6 @@ main > .container > p {
     min-height: 330px;
     max-width: 640px;
     max-height: 640px;
-    /*border: 1px solid black;*/
 }
 
 .grid_item {
@@ -282,7 +277,6 @@ main > .container > p {
 }
 
 .grid_item_add > div {
-    /*border: 1px solid black;*/
     overflow: hidden;
 }
 
@@ -343,7 +337,6 @@ main > .container > button {
 
 main > .container > button:hover {
     cursor: pointer;
-    background-color: gainsboro;
     background: rgba(236, 236, 236, 0.5);
 }
 
