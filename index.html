@@ -4,7 +4,20 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Shop</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        window.onload= () => {
+            window.scrollTo(0, 0);
+        };
+        let paralax = document.getElementById('header');
+        console.log(paralax)
 
+        window.onscroll=()=>{
+            let value = window.scrollY;
+            console.log(value * 0.2 + 'px')
+            paralax.style.backgroundPositionY = value * 0.38 + 'px';
+        }
+
+    </script>
 </head>
 <body>
 <!--<button class="scrolltop" onclick="window.scrollTo(0,0)">🠝</button>-->
@@ -199,20 +212,7 @@
     <button class="scrolltop" onclick="window.scrollTo(0,0)">🠝</button>
 </footer>
 
-<script defer>
-    window.onbeforeunload = () => {
-        window.scrollTo(0, 0);
-    };
-    let paralax = document.getElementById('header');
-    console.log(paralax)
 
-    window.onscroll=()=>{
-        let value = window.scrollY;
-        console.log(value * 0.2 + 'px')
-        paralax.style.backgroundPositionY = value * 0.38 + 'px';
-    }
-
-</script>
 
 </body>
 </html>
