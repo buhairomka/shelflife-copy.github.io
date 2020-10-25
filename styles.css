@@ -462,6 +462,10 @@ footer>.container>div>a:hover{
         width: 70vw;
 
     }
+
+    footer>.container>div{
+        flex-direction: column;
+    }
     header > h1 {
         font-size: 50px;
     }
