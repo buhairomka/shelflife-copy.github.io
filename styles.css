@@ -155,7 +155,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: url('export/image.png');
+    background-image: url("export/image.png");
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
@@ -184,7 +184,7 @@ header > h1 {
     /*margin-bottom: 10px;*/
 }
 
-header > h3 {
+header > h2 {
     color: whitesmoke;
     font-size: 20px;
     /*margin-bottom: 85px;*/
